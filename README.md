@@ -42,9 +42,3 @@ To view the project locally:
    ```
 3. Open `index.html` in your favorite web browser.
 
-## 📞 Contact
-
-For any inquiries, feel free to reach out:
-- **Email**: info@gmail.com
-- **Phone**: +91 9876543210
-- **Location**: Chennai, India
