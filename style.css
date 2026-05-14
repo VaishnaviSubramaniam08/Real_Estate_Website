@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f2f2f2;
+    background: white;
 }
 
 .navbar {
@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #022b63, #0a3b88)
+    background: linear-gradient(to right, #022b63, #0a3b88);
 }
 
 .logo {
@@ -83,4 +83,78 @@ body {
     border-radius: 5px;
     cursor: pointer;
 
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    line-height: 1.1;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    width: 80%;
+    line-height: 1.8;
+    color: #535252;
+    margin-bottom: 40px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.search-item {
+    padding: 0 20px;
+    border-right: 1px solid #ddd;
+}
+
+.search-item span {
+    color: grey;
+    font-size: 14px;
+}
+
+.search-item h4 {
+    margin-top: 8px;
+    color: black;
+    font-size: 16px;
+}
+
+.search-item:last-child {
+    border: none;
+}
+
+.search-btn {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 12px;
+    background: #2f80ff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
 }
