@@ -1,0 +1,13 @@
+loaded_h_0(function(_){var window=this;
+_.v("t7xgIe");
+
+_.x();
+_.hAg=_.y("R5dwh",[_.Ogb,_.Mgb,_.Ngb]);
+_.v("R5dwh");
+var iAg=class extends _.ls{static Sa(){return{service:{focus:_.gAg,page:_.bAg,xe:_.cAg}}}constructor(a){super();this.focus=a.service.focus;this.Aa=new _.oo(a.service.page.oa);this.Pc=_.ei(this.getData("isDesktop"),!1);this.xe=a.service.xe;var b=this.getRoot().el().clientHeight,c=!1,d=0,e=0;document.documentElement.style.scrollbarGutter="stable";if(this.Pc){let f=g=>{this.I3()&&(g.key==="Escape"&&this.oa(),g.key!=="Tab"&&g.stopPropagation())};document.addEventListener("keydown",f,!0);this.addOnDisposeCallback(()=>
+{document.removeEventListener("keydown",f,!0)})}else this.getRoot().el().addEventListener("touchstart",f=>{f instanceof TouchEvent&&(d=f.touches[0].clientY,c=d<=b)}),this.getRoot().el().addEventListener("touchmove",f=>{c&&f instanceof TouchEvent&&(e=f.touches[0].clientY,e-d>b/4&&this.oa())}),this.getRoot().el().addEventListener("touchend",()=>{c=!1}),this.getRoot().el().addEventListener("scroll",()=>{var f=this.getRoot().el().scrollTop>this.Ja("GGAcbc").el().clientHeight;this.getRoot().toggleClass("BPJAhd",
+f)})}Rd(){this.focus.oa||_.dAg(this.focus);this.getRoot().addClass("kEr8S");this.Aa.addClass("o2jCqf");_.eAg(this.focus,this.getRoot())}oa(){this.xe.logClick(this.Ja("GGAcbc").el());this.notify("Bvpvue");this.Ba(void 0,!0)}Ca(){this.notify("F8oiKc")}Ba(a,b=!1){this.trigger("dilFCd");return new Promise(()=>{this.getRoot().removeClass("kEr8S");this.Aa.removeClass("o2jCqf");b&&_.fAg(this.focus);_.ghb.setTimeout(()=>{this.getRoot().remove()},500)})}I3(){return this.getRoot().hasClass("kEr8S")}};
+iAg.prototype.$wa$fuZzMe=function(){return this.Ba};iAg.prototype.$wa$V3upec=function(){return this.Ca};iAg.prototype.$wa$Zpug7c=function(){return this.oa};iAg.prototype.$wa$npT2md=function(){return this.Rd};_.ns(_.hAg,iAg);
+_.x();
+});
+// Google Inc.
